@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 150px;
+  width: auto;
+}
+
+/* Container with the background image */
+.container {
+  background:
+  url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqjEynWs-0VcAcdz7EzADimg4EYPa-NTnKM9vZSfkZRLKBoKkF21Hb87nb&s=10')
+  no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content div for text and button */
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+/* Won */
+#won {
+  background-color: #ff1b7b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin-right: 35vh;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#won:hover {
+  background-color: black;
+}
+
+/* Euro */
+#euro {
+  background-color: #ff1b7b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin-top: -4.4vh;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#euro:hover {
+  background-color: black;
+}
+
+/* Dólar */
+#dol {
+  background-color: #ff1b7b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin-left: 35vh;
+  margin-top: -4.4vh;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#dol:hover {
+  background-color: black;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #1ABC9C;
+}
