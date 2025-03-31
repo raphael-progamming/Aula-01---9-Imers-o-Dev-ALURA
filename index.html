@@ -1,0 +1,37 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
+
+  <div class="container">
+    <div class="content">
+      <h2>Quem ganha, ganha em Wons, Dólar e Euro!</h2>
+      <p>Que tal converter esse valor?</p>
+      <p>Os botões abaixo <strong>representam a moeda</strong> que você deseja converter, clique em um.</p>
+      <button onclick="won()", id="won">Won</button>
+      <button onclick="euro()", id="euro">Euro</button>
+      <button onclick="dol()", id="dol">Dólar</button>
+    </div>
+  </div>
+
+  <footer>Alura - Imersão DEV - 2025</footer>
+
+  <script>
+    function won() {
+      let quantia = prompt(`Quantos Won você deseja converter?`);
+      let umWon = 0.0040;
+      alert(`${quantia} Wons dão R$${umWon * quantia}`);
+    }
+    function euro() {
+      let quantia = prompt(`Quantos Euros você deseja converter?`);
+      let umEuro = 6.19;
+      alert(`${quantia} Euros dão R$${umEuro * quantia}`);
+    }
+    function dol() {
+      let quantia = prompt(`Quantos Dólares você deseja converter?`);
+      let umDol = 5.74;
+      alert(`${quantia} Dólares dão R$${umDol * quantia}`);
+    }
+  </script>
+  </body>
